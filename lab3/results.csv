@@ -1,0 +1,88 @@
+section,name,config,metric,value
+tokenizers,BPE,vocab=500,tokens_on_sample,247410.0
+tokenizers,BPE,vocab=500,tokens_per_1000_chars,568.5377405100088
+tokenizers,BPE,vocab=500,unk_count,0.0
+tokenizers,BPE,vocab=500,pieces_frequent_word,4.0
+tokenizers,BPE,vocab=500,pieces_rare_word,13.0
+tokenizers,WordPiece,vocab=500,tokens_on_sample,245169.0
+tokenizers,WordPiece,vocab=500,tokens_per_1000_chars,563.3880170692306
+tokenizers,WordPiece,vocab=500,unk_count,0.0
+tokenizers,WordPiece,vocab=500,pieces_frequent_word,2.0
+tokenizers,WordPiece,vocab=500,pieces_rare_word,13.0
+tokenizers,Unigram,vocab=500,tokens_on_sample,242177.0
+tokenizers,Unigram,vocab=500,tokens_per_1000_chars,556.5125273169734
+tokenizers,Unigram,vocab=500,unk_count,0.0
+tokenizers,Unigram,vocab=500,pieces_frequent_word,1.0
+tokenizers,Unigram,vocab=500,pieces_rare_word,14.0
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_loss,4.838305473327637
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_perplexity,126.2552275112084
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_bits_per_char,2.2077450306917075
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,params,2856000.0
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,train_minutes,3.3100452025731406
+minigpt,v1_baseline_vocab8k_ctx64_L4,vocab=8000;ctx=64;layers=4;heads=4;emb=128;iters=6000,best_iter,5999.0
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_loss,5.2816619873046875
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_perplexity,196.69651094857755
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,val_bits_per_char,2.1316227748794203
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,params,4912000.0
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,train_minutes,4.780653949578603
+minigpt,v2_vocab16k_ctx64_L4,vocab=16000;ctx=64;layers=4;heads=4;emb=128;iters=6000,best_iter,5999.0
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,val_loss,4.737886428833008
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,val_perplexity,114.19259227025373
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,val_bits_per_char,2.1619232760108584
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,params,2864192.0
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,train_minutes,6.318449433644613
+minigpt,v3_vocab8k_ctx128_L4,vocab=8000;ctx=128;layers=4;heads=4;emb=128;iters=6000,best_iter,5999.0
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,val_loss,4.727733612060547
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,val_perplexity,113.03908140500283
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,val_bits_per_char,2.1572904906481956
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,params,3251776.0
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,train_minutes,4.540733071168264
+minigpt,v4_vocab8k_ctx64_L6,vocab=8000;ctx=64;layers=6;heads=4;emb=128;iters=6000,best_iter,5999.0
+sentiment_models,xlmr-base-twitter,cardiffnlp/twitter-xlm-roberta-base-sentiment;n=20,accuracy,0.95
+sentiment_models,xlmr-base-twitter,cardiffnlp/twitter-xlm-roberta-base-sentiment;n=20,f1,0.9523809523809523
+sentiment_models,xlmr-base-twitter,cardiffnlp/twitter-xlm-roberta-base-sentiment;n=20,params_millions,278.045955
+sentiment_models,xlmr-base-twitter,cardiffnlp/twitter-xlm-roberta-base-sentiment;n=20,seconds_for_20_sentences,0.06795308000027944
+sentiment_models,mdistilbert-student,lxyuan/distilbert-base-multilingual-cased-sentiments-student;n=20,accuracy,0.65
+sentiment_models,mdistilbert-student,lxyuan/distilbert-base-multilingual-cased-sentiments-student;n=20,f1,0.5882352941176471
+sentiment_models,mdistilbert-student,lxyuan/distilbert-base-multilingual-cased-sentiments-student;n=20,params_millions,135.326979
+sentiment_models,mdistilbert-student,lxyuan/distilbert-base-multilingual-cased-sentiments-student;n=20,seconds_for_20_sentences,0.04223848099991301
+sentiment_models,mbert-5stars,nlptown/bert-base-multilingual-uncased-sentiment;n=20,accuracy,0.85
+sentiment_models,mbert-5stars,nlptown/bert-base-multilingual-uncased-sentiment;n=20,f1,0.8421052631578947
+sentiment_models,mbert-5stars,nlptown/bert-base-multilingual-uncased-sentiment;n=20,params_millions,167.360261
+sentiment_models,mbert-5stars,nlptown/bert-base-multilingual-uncased-sentiment;n=20,seconds_for_20_sentences,0.07039941599987287
+sentiment_settings,xlmr-base-twitter,база: поріг 0.5,accuracy,0.95
+sentiment_settings,xlmr-base-twitter,база: поріг 0.5,f1,0.9523809523809523
+sentiment_settings,xlmr-base-twitter,поріг позитиву 0.3,accuracy,0.9
+sentiment_settings,xlmr-base-twitter,поріг позитиву 0.3,f1,0.9090909090909091
+sentiment_settings,xlmr-base-twitter,поріг позитиву 0.7,accuracy,0.95
+sentiment_settings,xlmr-base-twitter,поріг позитиву 0.7,f1,0.9523809523809523
+sentiment_settings,xlmr-base-twitter,дозволити «нейтрально»,accuracy,0.9
+sentiment_settings,xlmr-base-twitter,дозволити «нейтрально»,f1,0.9090909090909091
+sentiment_settings,xlmr-base-twitter,текст у нижньому регістрі,accuracy,0.95
+sentiment_settings,xlmr-base-twitter,текст у нижньому регістрі,f1,0.9523809523809523
+sentiment_settings,xlmr-base-twitter,текст без пунктуації,accuracy,0.95
+sentiment_settings,xlmr-base-twitter,текст без пунктуації,f1,0.9523809523809523
+sentiment_settings,mdistilbert-student,база: поріг 0.5,accuracy,0.65
+sentiment_settings,mdistilbert-student,база: поріг 0.5,f1,0.5882352941176471
+sentiment_settings,mdistilbert-student,поріг позитиву 0.3,accuracy,0.7
+sentiment_settings,mdistilbert-student,поріг позитиву 0.3,f1,0.7
+sentiment_settings,mdistilbert-student,поріг позитиву 0.7,accuracy,0.65
+sentiment_settings,mdistilbert-student,поріг позитиву 0.7,f1,0.46153846153846156
+sentiment_settings,mdistilbert-student,дозволити «нейтрально»,accuracy,0.65
+sentiment_settings,mdistilbert-student,дозволити «нейтрально»,f1,0.5882352941176471
+sentiment_settings,mdistilbert-student,текст у нижньому регістрі,accuracy,0.75
+sentiment_settings,mdistilbert-student,текст у нижньому регістрі,f1,0.7058823529411765
+sentiment_settings,mdistilbert-student,текст без пунктуації,accuracy,0.75
+sentiment_settings,mdistilbert-student,текст без пунктуації,f1,0.7058823529411765
+sentiment_settings,mbert-5stars,база: поріг 0.5,accuracy,0.85
+sentiment_settings,mbert-5stars,база: поріг 0.5,f1,0.8421052631578947
+sentiment_settings,mbert-5stars,поріг позитиву 0.3,accuracy,0.85
+sentiment_settings,mbert-5stars,поріг позитиву 0.3,f1,0.8571428571428571
+sentiment_settings,mbert-5stars,поріг позитиву 0.7,accuracy,0.9
+sentiment_settings,mbert-5stars,поріг позитиву 0.7,f1,0.8888888888888888
+sentiment_settings,mbert-5stars,дозволити «нейтрально»,accuracy,0.85
+sentiment_settings,mbert-5stars,дозволити «нейтрально»,f1,0.8421052631578947
+sentiment_settings,mbert-5stars,текст у нижньому регістрі,accuracy,0.85
+sentiment_settings,mbert-5stars,текст у нижньому регістрі,f1,0.8421052631578947
+sentiment_settings,mbert-5stars,текст без пунктуації,accuracy,0.9
+sentiment_settings,mbert-5stars,текст без пунктуації,f1,0.8888888888888888
